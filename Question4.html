@@ -1,0 +1,23 @@
+<!DOCTYPE html>>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>javascript to display only elements containing 'a' in them from a array </title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+           let fruits = ['akshay', 'Vivek',"Atul"]
+
+
+function filterItems(arr, query) {
+  return arr.filter(function(el) {
+      return el.toLowerCase().indexOf(query.toLowerCase()) !== -1
+  })
+}
+
+ 
+console.log(filterItems(fruits, 'a'))
+        </script>   
+    </body>
+</html>
