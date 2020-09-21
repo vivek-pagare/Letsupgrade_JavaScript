@@ -1,14 +1,5 @@
 window.onload = function(){
-let Buses = [
-    {
-        name : "vivek", 
-        source : "pune",
-        destination : "goa",
-        number : "mh12ab1234",
-        passenger_capacity : "4",
-    },
-    
- ];
+let Buses = [];
     if (localStorage.getItem("localBus") == null) {
     localStorage.setItem("localBus", JSON.stringify(Buses));
   }
